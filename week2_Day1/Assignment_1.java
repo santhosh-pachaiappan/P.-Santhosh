@@ -47,12 +47,12 @@ public class Assignment_1 {
 				
 		// find the dropdown
 				
-		WebElement source = driver.findElement(By.id("createLeadForm_dataSourceId"));
+		//WebElement source = driver.findElement(By.id("createLeadForm_dataSourceId"));
 		
 		//create object for select
 		
-		Select selectclass = new Select(source);
-		selectclass.selectByIndex(0);
+		//Select selectclass = new Select(source);
+		//selectclass.selectByIndex(0);
 		//selectclass.selectByValue("source option");
 		//selectclass.selectByVisibleText("sorce option");
 		
